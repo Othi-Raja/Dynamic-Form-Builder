@@ -21,19 +21,7 @@ const Login: React.FC<Props> = ({ onLoginSuccess }) => {
       );
       onLoginSuccess(rollNumber);
     } catch (error) {
-      console.error("Login failed:", error);
-      if (
-        error.response &&
-        error.response.data &&
-        error.response.data.message
-      ) {
-        alert("Login failed: " + error.response.data.message);
-      } else if (error.message) {
-        alert("Login failed: " + error.message);
-      } else {
-        alert("Login failed: An unknown error occurred");
-      }
-    }
+      alert(error);
   };
 
   return (
