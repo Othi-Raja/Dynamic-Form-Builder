@@ -22,6 +22,7 @@ const Login: React.FC<Props> = ({ onLoginSuccess }) => {
       onLoginSuccess(rollNumber);
     } catch (error) {
       alert(error);
+    }
   };
 
   return (
