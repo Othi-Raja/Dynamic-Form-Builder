@@ -1,0 +1,107 @@
+/* Container for the entire form section */
+.form-section-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Title and description styles */
+.form-title {
+  font-size: 24px;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.form-description {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Styling for individual fields */
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Input, Textarea, and Select Styling */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  border-color: #3f51b5;
+  outline: none;
+}
+
+/* Error message styling */
+.form-error {
+  font-size: 12px;
+  color: red;
+  margin-top: 5px;
+}
+
+/* Radio and Checkbox Label Styling */
+.form-radio-label,
+.form-checkbox-label {
+  font-size: 14px;
+  color: #333;
+  margin-left: 5px;
+}
+
+.form-radio-label input,
+.form-checkbox-label input {
+  margin-right: 10px;
+}
+
+/* Button Styling */
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form-button {
+  padding: 12px 25px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-button.prev {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.form-button.prev:hover {
+  background-color: #e0e0e0;
+}
+
+.form-button.next {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.form-button.next:hover {
+  background-color: #303f9f;
+}
